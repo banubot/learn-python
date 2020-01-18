@@ -44,7 +44,7 @@ class Board:
              #loop over inner items
             for j in range(0, len(self._layout[i])):
                 #print on same line by setting end to blank
-                print(board[i][j] + " ", end='')
+                print(self._layout[i][j] + " ", end='')
             #print on the next line
             print()
 
